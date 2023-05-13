@@ -1,0 +1,88 @@
+html {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card {
+    width: 375px;
+    background-color: white;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.product {
+    width: 375px;
+}
+
+.text {
+    margin: 20px;
+}
+
+.grayOut {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card h2 {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.price {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: hsl(158, 36%, 37%);
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.price strike {
+    font-size: 14px;
+}
+
+.text button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    width: 335px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    height: 40px;
+    margin-top: 10px;
+}
+
+@media (min-width: 576px) {
+    .card {
+        width: 600px;
+        display: flex;
+        height: 450px;
+        margin-top: 75px;
+    }
+
+    .product {
+        height: 100%;
+        width: 300px;
+        object-fit: cover;
+    }
+
+    .text {
+        width: 300px;
+        inline-size: 260px;
+    }
+
+    .text button {
+        width: 260px;
+        height: 50px;
+        margin-top: 30px;
+    }
+}
